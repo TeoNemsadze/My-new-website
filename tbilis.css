@@ -1,0 +1,187 @@
+*{
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 0 auto
+}
+.logo{
+	margin-left: 20px;
+	height: 85px;
+	width: 85px;
+	display: flex;
+	justify-content: space-between;
+}
+.navbar{
+	display: flex;
+}
+ul{
+	list-style: none;
+	display: flex;
+	margin-top: -65px;
+}
+li a{
+	text-decoration: none;
+	font-size: 33px;
+	color: #fff;
+	padding-left: 15px;
+	line-height: 0px;
+	padding-top: 30px;
+	/*margin: 20px;*/
+	/*padding-top: 30px;*/
+
+}
+.container {
+	max-width: 1000px;
+	width: 100%;
+	height: 17px;
+	margin: 0 auto;
+	display: block;
+
+}
+.d-flex{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-left: 90px;
+	padding: 15px;
+}
+header{
+	background: brown;
+	height: 85px;
+}
+header:after{
+	content: '';
+	clear: both;
+}
+.wraper{
+	width: 1366px;
+	height: 536px;
+	background-size: cover;
+	
+}
+.box{
+	height: 500px;
+	width: 100%;
+	position: relative;
+
+}
+button{
+	background-color: brown;
+	border-radius: 20px;
+	width: 150px;
+	height: 35px;
+	padding: 10px
+	color: white;
+	font-size: 27px;
+}
+.cover{
+	height: 100px;
+	width: 100px;
+	position: absolute;
+}
+.img-box{
+	height: 100%;
+
+}
+.image-box{
+	width: 1000px;
+
+	margin-left: 350px;
+}
+.bg-wrapper{
+	position: absolute;
+	top:180px;
+	left: 50px;
+}
+h5{
+	font-size: 25px;
+	color:white;
+}
+.container2{
+	top: 60px;
+	height: 800px;
+	width: 800px;
+	background-color: aquamarine;
+	justify-content: center;
+	display: flex;
+	padding: 5px;
+	flex-wrap: wrap;
+	background-color: black;
+	color: white;
+
+}
+.box1{
+	padding: 5px;
+	margin-top: 10px;
+	height: 300px;
+	width: 350px;
+	background-color: orange;
+	border: 4px solid black;
+	border-radius: 20px;
+	background-color: black;
+
+	
+}
+.history{
+	padding: 16px;
+	max-width: 290px;
+	width: 90%;
+	left: 10px;
+	margin-left: 18px;
+	margin-top: 20px;
+}
+.box1-title{
+	text-align: center;
+}
+.box2{
+	padding: 5px;
+	margin-top: 10px;
+	height: 300px;
+	width: 350px;
+	background-color: orange;
+	border: 4px solid black;
+	border-radius: 20px;
+	background-color: black;
+
+}
+.culture{
+	padding: 16px;
+	height: 225px;
+	max-width: 300px;
+	width: 90%;
+	left: 10px;
+	margin-left: 18px;
+	margin-top: 20px;
+}
+.box2-title{
+	text-align: center;
+}
+.box3{
+	padding: 5px;
+	margin-top: 10px;
+	height: 300px;
+	width: 350px;
+	background-color: orange;
+	border: 4px solid black;
+	border-radius: 20px;
+	margin-left: 22.5px;
+	background-color: black;
+}
+.food{
+	height: 234px;
+	width: auto;
+	padding: 18px;
+	margin-left: 15px;
+}
+.box3-title{
+	text-align: center;
+}
+.places{
+	height: 230px;
+	width: 295px;
+	padding: 20px;
+	margin-left: 17px;
+
+}
+.box4-title{
+	text-align: center;
+}
